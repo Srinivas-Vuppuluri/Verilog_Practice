@@ -1,0 +1,10 @@
+Q. Create a module that implements an AND gate, OR gate, NAND gate, NOR gate, XOR gate, XNOR gate.
+
+module top_module(input a, b, output c, d, e, f, g, h);
+    assign c = a && b;
+    assign d = a || b;
+    assign e = a &~ b;
+    assign f = a |~ b;
+    assign g = a ^ b;
+    assign h = a ^~ b;
+endmodule
