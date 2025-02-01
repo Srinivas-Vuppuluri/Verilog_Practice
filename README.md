@@ -1,1 +1,1 @@
-# Verilog_Practice
+Learning Verilog step-by-step
